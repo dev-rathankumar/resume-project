@@ -1,0 +1,16 @@
+{% extends 'resume/base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="jumbotron">
+    <h1 class="display-4">Build a resume designed to
+get you the job</h1>
+    <p class="lead">Get a resume template that’s based on what real employers want to see.</p>
+    <hr class="my-4">
+    <p>Get a resume template that’s based on what real employers want to see.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="{% url 'create_resume' %}" role="button">Create Now</a>
+    </p>
+  </div>
+</div>
+{% endblock %}
